@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+.form{
+    margin-top: 2%;
+}
+#submit{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 0.25s;
+}
+#submit:hover{
+    font-size: 110%;
+}

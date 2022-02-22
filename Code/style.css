@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 1.5%;
+}
+
+.header {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    text-align: center;
+    font-size: 200%;
+    background-color: rgb(8, 27, 136);
+    color: white;
+    padding: 3.5%;
+    margin: 0px;
+    margin-bottom: 1.5%;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sens {
+    border: 1px dotted black;
+    padding: 1%;
+    font-size: 75%;
+    width: 50%;
+}
+
+.form {
+    margin-top: 2%;
+}
+
+#submit {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 2%;
+    border-radius: 15px;
+    transition: 0.25s;
+    margin: 2%;
+    padding: 2.5%;
+    width: 20%;
+    text-align: center;
+}
+
+#submit:hover {
+    font-size: 110%;
+    width: 30%;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 90%;
+    border-style: dotted;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(8, 27, 136);
+    color: white;
+    font-size: 80%;
+    padding: 0.50%;
+}
+
+#loading {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 100px;
+}
+
+#erreur {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}

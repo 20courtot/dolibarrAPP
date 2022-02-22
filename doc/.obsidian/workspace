@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "7660d6cdea3f0a34",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ef2b4ca15b38f87",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "compterendu.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa4bd9b32acc984e",
+    "type": "split",
+    "children": [
+      {
+        "id": "83d0c3cea833dc53",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fd765da2176db92",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "681aaa1ff7e8865b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f0a43903d537e3bf",
+    "type": "split",
+    "children": [
+      {
+        "id": "770ce3432fe69621",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c99332a7b1ab7c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "compterendu.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5ef2b4ca15b38f87",
+  "lastOpenFiles": [
+    "compterendu.md",
+    "form.png",
+    "Guide_utilisation.pdf",
+    "mail_déploiement.md",
+    "page_didentification.png"
+  ]
+}

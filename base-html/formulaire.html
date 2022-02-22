@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>DOLIBARRAPP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="formulaire" hidden>
+    <button type="button" id="valbtn" onclick="goport()">Retour</button>
+
+    <div class="container">
+      <h1>Envoie de notes de frais à EGNOM</h1>
+      <div class="center">
+        <div class="form">
+      <a>Date de paiement</a>
+      <input type="text">
+      </div>
+      <div class="form">
+      <a>Libellé</a>
+      <input type="text">
+      </div>
+      <div class="form">
+      <a>Montant</a>
+      <input type="number">
+      </div>
+      <div class="form">
+      <a>Mode de règlement</a>
+      <select name="">
+          <option value="#">--Choisir une option--</option>
+          <option value="#">Espèce</option>
+          <option value="#">CB</option>
+          <option value="#">Chèque</option>
+          <option value="#">Autre</option>
+      </select>
+      </div>
+      <div class="form">
+      <a>Sens</a>
+      <input type="radio" name="reglement"><label>Débit</label>
+      <input type="radio"name="reglement"><label>Crédit</label>
+      </div>
+      <div class="form">
+      <a>Insérer une photo de la facture</a>
+      <input type="file">
+      </div>
+      <div class="form">
+      <a id="submit" href="#">Envoyer</a>
+      </div>
+      </div>
+      </div>
+    </div>
+</body>
+</html>

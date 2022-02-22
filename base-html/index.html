@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>DOLIBARRAPP</title>
+  <meta name="format-detection"content="telephone=no" />
+  <meta name="msapplication-tap-highlight"content="no" />
+  <meta name="viewport"content="user-scalable=no, initial-scale=1, maximum-scale=1,minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="ajaxButton" type="button">Faire une requête</button>
+
+  <h1>Envois de notes de frais à EGNOM</h1>
+
+  <div id="portail">
+    <div class="container">
+    <div class="center">
+      <div class="form">
+        <a>Nom d'utilisateur:</a>
+        <input type="text">
+        </div>
+        <div class="form">
+        <a>Mot de passe:</a>
+        <input type="password">
+        </div>
+        <button type="button" id="valbtn" onclick="goform()">Se connecter</button>
+
+
+      </div>
+    </div>
+  </div>
+
+    <div id="formulaire" hidden>
+      <button type="button" id="valbtn" onclick="goport()">Retour</button>
+  
+      <div class="container">
+        <div class="center">
+          <div class="form">
+        <a>Date de paiement</a>
+        <input type="text">
+        </div>
+        <div class="form">
+        <a>Libellé</a>
+        <input type="text">
+        </div>
+        <div class="form">
+        <a>Montant</a>
+        <input type="number">
+        </div>
+        <div class="form">
+        <a>Mode de règlement</a>
+        <select name="">
+            <option value="#">--Choisir une option--</option>
+            <option value="#">Espèce</option>
+            <option value="#">CB</option>
+            <option value="#">Chèque</option>
+            <option value="#">Autre</option>
+        </select>
+        </div>
+        <div class="form">
+        <a>Sens</a>
+        <input type="radio" name="reglement"><label>Débit</label>
+        <input type="radio"name="reglement"><label>Crédit</label>
+        </div>
+        <div class="form">
+        <a>Insérer une photo de la facture</a>
+        <input type="file">
+        </div>
+        <div class="form">
+        <a id="submit" href="#">Envoyer</a>
+        </div>
+        </div>
+        </div>
+      </div>
+      <script src="index.js" type="text/javascript"></script>
+
+</body>
+</html>
